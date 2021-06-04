@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+<context id="Tables" targetRuntime="MyBatis3">
+<jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+connectionURL="jdbc:mysql://localhost:3306/blog?serverTimezone=GMT"
+userId="root"
+password="root">
+<property name="nullCatalogMeansCurrent" value="true" />
+</jdbcConnection>
+
+<javaTypeResolver >
+<property name="forceBigDecimals" value="false" />
+</javaTypeResolver>
+
+<javaModelGenerator targetPackage="life.daguo.boot.Pojo" targetProject="C:\Users\Guo Junnan\IdeaProjects\SpringBoot01helloworld\src\main\java">
+<property name="enableSubPackages" value="true" />
+<property name="trimStrings" value="true" />
+</javaModelGenerator>
+
+<sqlMapGenerator targetPackage="mapper"  targetProject="C:\Users\Guo Junnan\IdeaProjects\SpringBoot01helloworld\src\main\resources">
+<property name="enableSubPackages" value="true" />
+</sqlMapGenerator>
+
+<javaClientGenerator type="XMLMAPPER" targetPackage="life.daguo.boot.Dao"  targetProject="C:\Users\Guo Junnan\IdeaProjects\SpringBoot01helloworld\src\main\java">
+<property name="enableSubPackages" value="true" />
+</javaClientGenerator>
+
+<!--<table tableName="t_user" domainObjectName="user" > </table>-->
+<!--<table tableName="t_blog" domainObjectName="blog" > </table>-->
+<!--<table tableName="t_tag" domainObjectName="tag" > </table>-->
+<!--<table tableName="t_type" domainObjectName="type" > </table>-->
+<!--<table tableName="t_comment" domainObjectName="comment" > </table>-->
+<!--<table tableName="t_blog_tags" domainObjectName="tblogtags" > </table>-->
+
+</context>
+</generatorConfiguration>
