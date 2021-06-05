@@ -65,7 +65,7 @@ bower install editor.md
 ```html
 <link rel="stylesheet" href="editor.md/css/editormd.min.css" />
 <div id="editor">
-    <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
+    editormd
     <textarea style="display:none;">### Hello Editor.md !</textarea>
 </div>
 <script src="jquery.min.js"></script>
@@ -76,7 +76,7 @@ bower install editor.md
             // width: "100%",
             // height: "100%",
             // markdown: "xxxx",     // dynamic set Markdown text
-            path : "editor.md/lib/"  // Autoload modules mode, codemirror, marked... dependents libs path
+            path : editormd  // Autoload modules mode, codemirror, marked... dependents libs path
         });
     });
 </script>
@@ -129,15 +129,15 @@ Editor.md options and default values:
     mode                 : "gfm",          // gfm or markdown
     name                 : "",             // Form element name for post
     value                : "",             // value for CodeMirror, if mode not gfm/markdown
-    theme                : "",             themes.default.assets.fonts
+    theme                : "",             editormd
     editorTheme          : "default",      // Editor area, this is CodeMirror theme at v1.5.0
-    previewTheme         : "",             themes.default.assets.fonts
+    previewTheme         : "",             // Preview area theme, default empty
     markdown             : "",             // Markdown source code
     appendMarkdown       : "",             // if in init textarea value not empty, append markdown to textarea
     width                : "100%",
     height               : "100%",
     path                 : "./lib/",       // Dependents module file directory
-    pluginPath           : "",             themes.default.assets.fonts
+    pluginPath           : "",             // If this empty, default use settings.path + "../plugins/"
     delay                : 300,            // Delay parse markdown to html, Uint : ms
     autoLoadModules      : true,           // Automatic load dependent module files
     watch                : true,
@@ -148,7 +148,7 @@ Editor.md options and default values:
     autoFocus            : true,           // Enable / disable auto focus editor left input area
     autoCloseTags        : true,
     searchReplace        : true,           // Enable / disable (CodeMirror) search and replace function
-    syncScrolling        : true,           themes.default.assets.fonts
+    syncScrolling        : true,           // options: true | false | "single", default true
     readOnly             : false,          // Enable / disable readonly mode
     tabSize              : 4,
     indentUnit           : 4,
@@ -201,7 +201,7 @@ Editor.md options and default values:
     taskList             : false,          // Enable Github Flavored Markdown task lists
     emoji                : false,          // :emoji: , Support Github emoji, Twitter Emoji (Twemoji);
                                            // Support FontAwesome icon emoji :fa-xxx: > Using fontAwesome icon web fonts;
-                                           // Support Editor.md logo icon emoji :editormd-logo: :editormd-logo-1x: > 1~8x;
+                                           editormd
     tex                  : false,          // TeX(LaTeX), based on KaTeX
     flowChart            : false,          // flowChart.js only support IE9+
     sequenceDiagram      : false,          // sequenceDiagram.js only support IE9+
@@ -219,7 +219,7 @@ Editor.md options and default values:
             return editormd.toolbarHandlers.lowercase;
         }
     },
-    toolbarCustomIcons   : {               themes.default.assets.fonts
+    toolbarCustomIcons   : {               // using html tag create toolbar icon, unused default <a> tag.
         lowercase        : "<a href=\"javascript:;\" title=\"Lowercase\" unselectable=\"on\"><i class=\"fa\" name=\"lowercase\" style=\"font-size:24px;margin-top: -10px;\">a</i></a>",
         "ucwords"        : "<a href=\"javascript:;\" title=\"ucwords\" unselectable=\"on\"><i class=\"fa\" name=\"ucwords\" style=\"font-size:20px;margin-top: -3px;\">Aa</i></a>"
     },

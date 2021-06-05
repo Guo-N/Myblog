@@ -2837,7 +2837,7 @@
   }
 
   var measureText;
-  // Compute the themes.default.assets.fonts text height.
+  // Compute the default text height.
   function textHeight(display) {
     if (display.cachedTextHeight != null) return display.cachedTextHeight;
     if (measureText == null) {
@@ -2857,7 +2857,7 @@
     return height || 1;
   }
 
-  // Compute the themes.default.assets.fonts character width.
+  // Compute the default character width.
   function charWidth(display) {
     if (display.cachedCharWidth != null) return display.cachedCharWidth;
     var anchor = elt("span", "xxxxxxxxxx");
@@ -3762,7 +3762,7 @@
 
     e.dataTransfer.setData("Text", cm.getSelection());
 
-    // Use dummy image instead of themes.default.assets.fonts browsers image.
+    // Use dummy image instead of default browsers image.
     // Recent Safari (~6.0.2) have a tendency to segfault when this happens, so we don't do it there.
     if (e.dataTransfer.setDragImage && !safari) {
       var img = elt("img", null, null, "position: fixed; left: 0; top: 0;");
@@ -4942,7 +4942,7 @@
       } else if (vert == "above" || vert == "near") {
         var vspace = Math.max(display.wrapper.clientHeight, this.doc.height),
         hspace = Math.max(display.sizer.clientWidth, display.lineSpace.clientWidth);
-        // Default to positioning above (if specified and possible); otherwise themes.default.assets.fonts to positioning below
+        // Default to positioning above (if specified and possible); otherwise default to positioning below
         if ((vert == 'above' || pos.bottom + node.offsetHeight > vspace) && pos.top > node.offsetHeight)
           top = pos.top - node.offsetHeight;
         else if (pos.bottom + node.offsetHeight <= vspace)
@@ -5154,7 +5154,7 @@
 
   // OPTION DEFAULTS
 
-  // The themes.default.assets.fonts configuration options.
+  // The default configuration options.
   var defaults = CodeMirror.defaults = {};
   // Functions to run when options are changed.
   var optionHandlers = CodeMirror.optionHandlers = {};
@@ -5330,7 +5330,7 @@
     return modeObj;
   };
 
-  // Minimal themes.default.assets.fonts mode.
+  // Minimal default mode.
   CodeMirror.defineMode("null", function() {
     return {token: function(stream) {stream.skipToEnd();}};
   });
@@ -5572,7 +5572,7 @@
     "Esc": "singleSelection"
   };
   // Note that the save and find-related commands aren't defined by
-  // themes.default.assets.fonts. User code or addons can define them. Unknown commands
+  // default. User code or addons can define them. Unknown commands
   // are simply ignored.
   keyMap.pcDefault = {
     "Ctrl-A": "selectAll", "Ctrl-D": "deleteLine", "Ctrl-Z": "undo", "Shift-Ctrl-Z": "redo", "Ctrl-Y": "redo",
@@ -5895,7 +5895,7 @@
   };
 
   // Find the position of the marker in the document. Returns a {from,
-  // to} object by themes.default.assets.fonts. Side can be passed to get a specific side
+  // to} object by default. Side can be passed to get a specific side
   // -- 0 (both), -1 (left), or 1 (right). When lineObj is true, the
   // Pos objects returned contain a line object, rather than a line
   // number (used to prevent looking up the same line twice).
@@ -6933,7 +6933,7 @@
 
   // DOCUMENT DATA STRUCTURE
 
-  // By themes.default.assets.fonts, updates that start and end at the beginning of a line
+  // By default, updates that start and end at the beginning of a line
   // are treated specially, in order to make the association of line
   // widgets and marker elements with the text behave more intuitive.
   function isWholeLineUpdate(doc, change) {

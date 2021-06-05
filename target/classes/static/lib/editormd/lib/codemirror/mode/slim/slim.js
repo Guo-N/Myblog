@@ -505,7 +505,7 @@
     }
 
     var mode = {
-      // themes.default.assets.fonts to html mode
+      // default to html mode
       startState: function() {
         var htmlState = htmlMode.startState();
         var rubyState = rubyMode.startState();

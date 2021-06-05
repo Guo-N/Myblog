@@ -202,7 +202,7 @@ CodeMirror.defineMode("cobol", function () {
         }
         returnType = STRING; // continue on in string mode
         break;
-      default: // themes.default.assets.fonts parsing mode
+      default: // default parsing mode
         var ch = stream.next();
         var col = stream.column();
         if (col >= 0 && col <= 5) {

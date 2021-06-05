@@ -1,5 +1,5 @@
 /*!
- * Code block dialog plugin for Editor.md
+ * Code block dialog plugin for Editor.editormd
  *
  * @file        code-block-dialog.js
  * @author      pandao
@@ -85,7 +85,7 @@
                 var dialogHTML = "<div class=\"" + classPrefix + "code-toolbar\">" +
                                         dialogLang.selectLabel + "<select><option selected=\"selected\" value=\"\">" + dialogLang.selectDefaultText + "</option></select>" +
                                     "</div>" +
-                                    "<textarea placeholder=\"coding now....\" style=\"display:none;\">" + selection + "</textarea>";
+                                    "<textarea placeholder=\"" + dialogLang.placeholder + "\" style=\"display:none;\">" + selection + "</textarea>";
 
                 dialog = this.createDialog({
                     name   : dialogName,

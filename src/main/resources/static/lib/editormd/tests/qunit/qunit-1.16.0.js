@@ -107,14 +107,14 @@ config = {
 	// gets persisted through sessionStorage and can be changed in UI via checkbox
 	hidepassed: false,
 
-	// by themes.default.assets.fonts, run previously failed tests first
+	// by default, run previously failed tests first
 	// very useful in combination with "Hide passed tests" checked
 	reorder: true,
 
-	// by themes.default.assets.fonts, modify document.title when suite is done
+	// by default, modify document.title when suite is done
 	altertitle: true,
 
-	// by themes.default.assets.fonts, scroll to top of the page when suite is done
+	// by default, scroll to top of the page when suite is done
 	scrolltop: true,
 
 	// when enabled, all tests must call expect()
@@ -446,7 +446,7 @@ extend( QUnit, {
 onErrorFnPrev = window.onerror;
 
 // Cover uncaught exceptions
-// Returning true will suppress the themes.default.assets.fonts browser handler,
+// Returning true will suppress the default browser handler,
 // returning false will let it run.
 window.onerror = function( error, filePath, linerNr ) {
 	var ret = false;

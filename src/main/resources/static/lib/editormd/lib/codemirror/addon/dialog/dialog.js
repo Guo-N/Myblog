@@ -124,7 +124,7 @@
   /*
    * openNotification
    * Opens a notification, that can be closed with an optional timer
-   * (themes.default.assets.fonts 5000ms timer) and always closes on click.
+   * (default 5000ms timer) and always closes on click.
    *
    * If a notification is opened while another is opened, it will close the
    * currently opened one and open the new one immediately.

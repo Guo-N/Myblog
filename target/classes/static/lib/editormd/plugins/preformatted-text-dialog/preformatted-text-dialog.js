@@ -1,5 +1,5 @@
 /*!
- * Preformatted text dialog plugin for Editor.md
+ * Preformatted text dialog plugin for Editor.editormd
  *
  * @file        preformatted-text-dialog.js
  * @author      pandao
@@ -41,7 +41,7 @@
             }
             else 
             {      
-                var dialogContent = "<textarea placeholder=\"coding now....\" style=\"display:none;\">" + selection + "</textarea>";
+                var dialogContent = "<textarea placeholder=\"" + dialogLang.placeholder + "\" style=\"display:none;\">" + selection + "</textarea>";
 
                 dialog = this.createDialog({
                     name   : dialogName,

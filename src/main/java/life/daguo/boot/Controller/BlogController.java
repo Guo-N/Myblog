@@ -11,10 +11,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.io.File;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/admin")
@@ -100,6 +105,35 @@ public class BlogController{
         blogService.deleteBlog(id);
         redirectAttributes.addFlashAttribute("message","删除成功");
         return "redirect:/admin/blogs";
+    }
+
+    @PostMapping("/uploadFile")
+    public @ResponseBody
+    Map<String,Object> demo(@RequestParam(value = "editormd-image-file", required = false) MultipartFile file, HttpServletRequest request) {
+        Map<String,Object> resultMap = new HashMap<String,Object>();
+        //保存
+        try {
+            File imageFolder= new File(request.getServletContext().getRealPath("/img/upload"));
+            File targetFile = new File(imageFolder,file.getOriginalFilename());
+            if(!targetFile.getParentFile().exists())
+                targetFile.getParentFile().mkdirs();
+            file.transferTo(targetFile);
+//            BufferedImage img = ImageUtil.change2jpg(targetFile);
+//            ImageIO.write(img, "jpg", targetFile);
+            /*            file.transferTo(targetFile);*/
+//            byte[] bytes = file.getBytes();
+//            Path path = Paths.get(realPath + file.getOriginalFilename());
+//            Files.write(path, bytes);
+            resultMap.put("success", 1);
+            resultMap.put("message", "上传成功！");
+            resultMap.put("url","http://49.232.9.73:8081/img/upload/"+file.getOriginalFilename());
+        } catch (Exception e) {
+            resultMap.put("success", 0);
+            resultMap.put("message", "上传失败！");
+            e.printStackTrace();
+        }
+        System.out.println(resultMap.get("success"));
+        return resultMap;
     }
 
 }

@@ -1,5 +1,5 @@
 /*!
- * Link dialog plugin for Editor.md
+ * Link dialog plugin for Editor.editormd
  *
  * @file        link-dialog.js
  * @author      pandao

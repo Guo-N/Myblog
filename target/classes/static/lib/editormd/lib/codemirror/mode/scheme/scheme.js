@@ -125,7 +125,7 @@ CodeMirror.defineMode("scheme", function () {
                         returnType = COMMENT;
                         break;
                     }
-                default: // themes.default.assets.fonts parsing mode
+                default: // default parsing mode
                     var ch = stream.next();
 
                     if (ch == "\"") {

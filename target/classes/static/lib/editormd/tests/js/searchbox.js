@@ -414,7 +414,7 @@
                     '}',
                     '.ace_searchbtn:disabled {',
                         'background: none;',
-                        'cursor: themes.default.assets.fonts;',
+                        'cursor: default;',
                     '}',
                     '.ace_searchbtn {',
                         'background-position: 50% 50%;',

@@ -28,7 +28,7 @@ CodeMirror.defineMode("puppet", function () {
 
   // Takes commonly known puppet types/words and classifies them to a style
   define('keyword', 'class define site node include import inherits');
-  define('keyword', 'case if else in and elsif themes.default.assets.fonts or');
+  define('keyword', 'case if else in and elsif default or');
   define('atom', 'false true running present absent file directory undef');
   define('builtin', 'action augeas burst chain computer cron destination dport exec ' +
     'file filebucket group host icmp iniface interface jump k5login limit log_level ' +

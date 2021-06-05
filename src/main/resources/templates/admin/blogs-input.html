@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>博客发布</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" th:href="@{/css/semantic.min.css}">
-    <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css">
-    <link rel="stylesheet" href="../../static/css/me.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" th:href="@{/css/semantic.min.css}">-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
+    <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editormd/css/editormd.min.css}">
+    <link rel="stylesheet" href="../../static/css/me.css" th:href="@{/css/me.css}">
+
 </head>
 <body>
 
@@ -22,7 +24,7 @@
                 <div class="ui dropdown  item">
                     <div class="text">
                         <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005">
-                        李仁密
+                        rmss
                     </div>
                     <i class="dropdown icon"></i>
                     <div class="menu">
@@ -69,7 +71,8 @@
 
             <div class="required field">
                 <div id="md-content" style="z-index: 1 !important;">
-                    <textarea placeholder="博客内容" name="content" style="display: none" th:text="*{content}"></textarea>
+
+                    <textarea placeholder="博客内容" name="content" th:text="*{content}" ></textarea>
                 </div>
             </div>
 
@@ -111,14 +114,12 @@
             </div>
 
             <div class="required field">
-
                 <textarea name="description"  placeholder="博客描述..."   th:text="*{description}" maxlength="200"></textarea>
             </div>
 
             <div class="inline fields">
                 <div class="field">
                     <div class="ui checkbox">
-
                         <input type="checkbox" id="recommend"   th:checked="*{recommend}" name="recommend" checked  class="hidden">
                         <label for="recommend">推荐</label>
                     </div>
@@ -139,7 +140,6 @@
                 </div>
                 <div class="field">
                     <div class="ui checkbox">
-
                         <input type="checkbox" id="commentabled"    th:checked="*{commentabled}" name="commentabled"  class="hidden">
                         <label for="commentabled">评论</label>
                     </div>
@@ -213,7 +213,14 @@
             height  : 640,
             syncScrolling : "single",
 //        path    : "../static/lib/editormd/lib/"
-            path    : "/lib/editormd/lib/"
+            path    : "/lib/editormd/lib/",
+            saveHTMLToTextarea : true,
+            imageUpload:true,
+            imageFormats:["jpg","png","jpeg","gif","bmp","webp"],
+            imageUploadURL:"/admin/uploadFile",
+            upload: function (obj) {
+                console.log(obj);
+            }
         });
     });
     $('.menu.toggle').click(function () {

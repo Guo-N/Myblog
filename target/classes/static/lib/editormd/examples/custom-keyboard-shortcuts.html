@@ -69,7 +69,7 @@ var testEditor = editormd("test-editormd", {
                     height: 720,
                     path : '../lib/',
                     disabledKeyMaps : [
-                        "Ctrl-B", "F11", "F10"  // disable some themes.default.assets.fonts keyboard shortcuts handle
+                        "Ctrl-B", "F11", "F10"  // disable some default keyboard shortcuts handle
                     ],
                     onchange : function() {
                                 $("#test").remove();
@@ -87,7 +87,7 @@ var testEditor = editormd("test-editormd", {
                                 alert("Ctrl+S");
                                 //return false;
                             },
-                            "Ctrl-A": function(cm) { // themes.default.assets.fonts Ctrl-A selectAll
+                            "Ctrl-A": function(cm) { // default Ctrl-A selectAll
                                 // custom
                                 alert("Ctrl+A");
                                 cm.execCommand("selectAll");

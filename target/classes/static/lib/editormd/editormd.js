@@ -1,5 +1,5 @@
 /*
- * Editor.md
+ * Editor.editormd
  *
  * @file        editormd.js 
  * @version     v1.5.0 
@@ -58,9 +58,9 @@
         return new editormd.fn.init(id, options);
     };
     
-    editormd.title        = editormd.$name = "Editor.md";
+    editormd.title        = editormd.$name = "Editor.editormd";
     editormd.version      = "1.5.0";
-    editormd.homePage     = "https://pandao.github.io/editor.md/";
+    editormd.homePage     = "https://pandao.github.io/editor.editormd/";
     editormd.classPrefix  = "editormd-";
     
     editormd.toolbarModes = {
@@ -92,15 +92,15 @@
         mode                 : "gfm",          //gfm or markdown
         name                 : "",             // Form element name
         value                : "",             // value for CodeMirror, if mode not gfm/markdown
-        theme                : "",             // Editor.md self themes, before v1.5.0 is CodeMirror theme, themes.default.assets.fonts empty
+        theme                : "",             // Editor.editormd self themes, before v1.5.0 is CodeMirror theme, default empty
         editorTheme          : "default",      // Editor area, this is CodeMirror theme at v1.5.0
-        previewTheme         : "",             // Preview area theme, themes.default.assets.fonts empty
+        previewTheme         : "",             // Preview area theme, default empty
         markdown             : "",             // Markdown source code
         appendMarkdown       : "",             // if in init textarea value not empty, append markdown to textarea
         width                : "100%",
         height               : "100%",
         path                 : "./lib/",       // Dependents module file directory
-        pluginPath           : "",             // If this empty, themes.default.assets.fonts use settings.path + "../plugins/"
+        pluginPath           : "",             // If this empty, default use settings.path + "../plugins/"
         delay                : 300,            // Delay parse markdown to html, Uint : ms
         autoLoadModules      : true,           // Automatic load dependent module files
         watch                : true,
@@ -111,7 +111,7 @@
 		autoFocus            : true,
         autoCloseTags        : true,
         searchReplace        : true,
-        syncScrolling        : true,           // true | false | "single", themes.default.assets.fonts true
+        syncScrolling        : true,           // true | false | "single", default true
         readOnly             : false,
         tabSize              : 4,
 		indentUnit           : 4,
@@ -164,7 +164,7 @@
         taskList             : false,          // Enable Github Flavored Markdown task lists
         emoji                : false,          // :emoji: , Support Github emoji, Twitter Emoji (Twemoji);
                                                // Support FontAwesome icon emoji :fa-xxx: > Using fontAwesome icon web fonts;
-                                               // Support Editor.md logo icon emoji :editormd-logo: :editormd-logo-1x: > 1~8x;
+                                               // Support Editor.editormd logo icon emoji :editormd-logo: :editormd-logo-1x: > 1~8x;
         tex                  : false,          // TeX(LaTeX), based on KaTeX
         flowChart            : false,          // flowChart.js only support IE9+
         sequenceDiagram      : false,          // sequenceDiagram.js only support IE9+
@@ -182,7 +182,7 @@
                 return editormd.toolbarHandlers.lowercase;
             }
         },
-        toolbarCustomIcons   : {               // using html tag create toolbar icon, unused themes.default.assets.fonts <a> tag.
+        toolbarCustomIcons   : {               // using html tag create toolbar icon, unused default <a> tag.
             lowercase        : "<a href=\"javascript:;\" title=\"Lowercase\" unselectable=\"on\"><i class=\"fa\" name=\"lowercase\" style=\"font-size:24px;margin-top: -10px;\">a</i></a>",
             "ucwords"        : "<a href=\"javascript:;\" title=\"ucwords\" unselectable=\"on\"><i class=\"fa\" name=\"ucwords\" style=\"font-size:20px;margin-top: -3px;\">Aa</i></a>"
         }, 
@@ -365,7 +365,7 @@
             
             var _this            = this;
             var classPrefix      = this.classPrefix  = editormd.classPrefix; 
-            var settings         = this.settings     = $.extend(true, editormd.defaults, options);
+            var settings         = this.settings     = $.extend(true, {}, editormd.defaults, options);
             
             id                   = (typeof id === "object") ? settings.id : id;
             
@@ -603,8 +603,8 @@
         },
         
         /**
-         * 设置 Editor.md 的整体主题，主要是工具栏
-         * Setting Editor.md theme
+         * 设置 Editor.editormd 的整体主题，主要是工具栏
+         * Setting Editor.editormd theme
          * 
          * @returns {editormd}  返回editormd的实例对象
          */
@@ -656,8 +656,8 @@
         },
         
         /**
-         * 设置 Editor.md 的主题
-         * Setting Editor.md theme
+         * 设置 Editor.editormd 的主题
+         * Setting Editor.editormd theme
          * 
          * @returns {editormd}  返回editormd的实例对象
          */
@@ -1299,7 +1299,7 @@
         
         /**
          * 创建关于Editor.md的对话框
-         * Create about Editor.md dialog
+         * Create about Editor.editormd dialog
          * 
          * @returns {editormd}  返回editormd的实例对象
          */
@@ -1315,7 +1315,7 @@
                 "<h1><i class=\"editormd-logo editormd-logo-lg editormd-logo-color\"></i> " + editormd.title + "<small>v" + editormd.version + "</small></h1>",
                 "<p>" + this.lang.description + "</p>",
                 "<p style=\"margin: 10px 0 20px 0;\"><a href=\"" + editormd.homePage + "\" target=\"_blank\">" + editormd.homePage + " <i class=\"fa fa-external-link\"></i></a></p>",
-                "<p style=\"font-size: 0.85em;\">Copyright &copy; 2015 <a href=\"https://github.com/pandao\" target=\"_blank\" class=\"hover-link\">Pandao</a>, The <a href=\"https://github.com/pandao/editor.md/blob/master/LICENSE\" target=\"_blank\" class=\"hover-link\">MIT</a> License.</p>",
+                "<p style=\"font-size: 0.85em;\">Copyright &copy; 2015 <a href=\"https://github.com/pandao\" target=\"_blank\" class=\"hover-link\">Pandao</a>, The <a href=\"https://github.com/pandao/editor.editormd/blob/master/LICENSE\" target=\"_blank\" class=\"hover-link\">MIT</a> License.</p>",
                 "</div>",
                 "<a href=\"javascript:;\" class=\"fa fa-close " + classPrefix + "dialog-close\"></a>",
                 "</div>"
@@ -1338,7 +1338,7 @@
         
         /**
          * 关于Editor.md对话居中定位
-         * Editor.md dialog position handle
+         * Editor.editormd dialog position handle
          * 
          * @returns {editormd}  返回editormd的实例对象
          */
@@ -1361,8 +1361,8 @@
         },
         
         /**
-         * 显示关于Editor.md
-         * Display about Editor.md dialog
+         * 显示关于Editor.editormd
+         * Display about Editor.editormd dialog
          * 
          * @returns {editormd}  返回editormd的实例对象
          */
@@ -1396,8 +1396,8 @@
         },
         
         /**
-         * 隐藏关于Editor.md
-         * Hide about Editor.md dialog
+         * 隐藏关于Editor.editormd
+         * Hide about Editor.editormd dialog
          * 
          * @returns {editormd}  返回editormd的实例对象
          */
@@ -2252,7 +2252,7 @@
         
         /**
          * 获取编辑器的markdown源文档
-         * Set Editor.md markdown/CodeMirror value
+         * Set Editor.editormd markdown/CodeMirror value
          * 
          * @returns {editormd}         返回editormd的实例对象
          */
@@ -3365,7 +3365,7 @@
 
     // Emoji graphics files url path
     editormd.emoji     = {
-        path  : "http://www.emoji-cheat-sheet.com/graphics/emojis/",
+        path  : "https://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/",
         ext   : ".png"
     };
 
@@ -3392,7 +3392,7 @@
             atLink               : true,           // for @link
             emailLink            : true,           // for mail address auto link
             taskList             : false,          // Enable Github Flavored Markdown task lists
-            emoji                : false,          // :emoji: , Support Twemoji, fontAwesome, Editor.md logo emojis.
+            emoji                : false,          // :emoji: , Support Twemoji, fontAwesome, Editor.editormd logo emojis.
             tex                  : false,          // TeX(LaTeX), based on KaTeX
             flowChart            : false,          // flowChart.js only support IE9+
             sequenceDiagram      : false,          // sequenceDiagram.js only support IE9+
@@ -3454,7 +3454,7 @@
                             for (var x = 0, len2 = emdlogoMathcs.length; x < len2; x++)
                             {
                                 var logoName = emdlogoMathcs[x].replace(/:/g, "");
-                                return "<i class=\"" + logoName + "\" title=\"Editor.md logo (" + logoName + ")\"></i>";
+                                return "<i class=\"" + logoName + "\" title=\"Editor.editormd logo (" + logoName + ")\"></i>";
                             }
                         }
                         else if (twemojiMatchs) 
@@ -4041,7 +4041,7 @@
         return div;
     };
     
-    // Editor.md themes, change toolbar themes etc.
+    // Editor.editormd themes, change toolbar themes etc.
     // added @1.5.0
     editormd.themes        = ["default", "dark"];
     
@@ -4078,7 +4078,7 @@
     
     /**
      * 动态加载Editor.md插件，但不立即执行
-     * Load editor.md plugins
+     * Load editor.editormd plugins
      * 
      * @param {String}   fileName              插件文件路径
      * @param {Function} [callback=function()] 加载成功后执行的回调函数

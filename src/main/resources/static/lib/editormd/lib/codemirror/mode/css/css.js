@@ -554,7 +554,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
     "col-resize", "collapse", "column", "compact", "condensed", "contain", "content",
     "content-box", "context-menu", "continuous", "copy", "counter", "counters", "cover", "crop",
     "cross", "crosshair", "currentcolor", "cursive", "cyclic", "dashed", "decimal",
-    "decimal-leading-zero", "default", "themes.default.assets.fonts-button", "destination-atop",
+    "decimal-leading-zero", "default", "default-button", "destination-atop",
     "destination-in", "destination-out", "destination-over", "devanagari",
     "disc", "discard", "disclosure-closed", "disclosure-open", "document",
     "dot-dash", "dot-dot-dash",

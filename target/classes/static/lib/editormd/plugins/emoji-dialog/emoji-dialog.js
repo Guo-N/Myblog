@@ -1,5 +1,5 @@
 /*!
- * Emoji dialog plugin for Editor.md
+ * Emoji dialog plugin for Editor.editormd
  *
  * @file        emoji-dialog.js
  * @author      pandao
@@ -139,7 +139,7 @@
 				});
 			}
 			
-			var category = ["Github emoji", "Twemoji", "Font awesome", "Editor.md logo"];
+			var category = ["Github emoji", "Twemoji", "Font awesome", "Editor.editormd logo"];
 			var tab      = dialog.find("." + classPrefix + "tab");
 
 			if (tab.html() === "") 
@@ -221,7 +221,7 @@
                                 }
                                 else if (type === "editormd-logo")
                                 {
-                                    icon = "<i class=\"" + emoji + "\" title=\"Editor.md logo (" + emoji + ")\"></i>";
+                                    icon = "<i class=\"" + emoji + "\" title=\"Editor.editormd logo (" + emoji + ")\"></i>";
                                     row += "<a href=\"javascript:;\" value=\":" + emoji + ":\" title=\":" + emoji + ":\" style=\"width:20%;\" class=\"" + classPrefix + "emoji-btn\">" + icon + "</a>";
                                 }
                             }

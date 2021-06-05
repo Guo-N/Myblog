@@ -112,7 +112,7 @@
                         <div class="right aligned column">
                             <!--th:unless="${page.isIsLastPage()}"-->
                             <!--th:href="@{/(page=${page.number}+1)}"-->
-                            <a href="#"   class="ui mini teal basic button" th:unless="${page.isIsLastPage()}" th:href="@{/(page=${page.number}+1)}">下一页</a>
+                            <a href="#"   class="ui mini teal basic button" th:unless="${page.isIsLastPage()}" th:href="@{/(page=${page.getPageNum()}+1)}">下一页</a>
                         </div>
                     </div>
                 </div>

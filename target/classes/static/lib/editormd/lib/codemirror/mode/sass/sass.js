@@ -312,7 +312,7 @@ CodeMirror.defineMode("sass", function(config) {
         return "variable-3";
       }
 
-      // bang character for !important, !themes.default.assets.fonts, etc.
+      // bang character for !important, !default, etc.
       if (ch === "!") {
         stream.next();
         if(!stream.peek()){

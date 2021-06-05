@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title th:replace="${title}">博客详情</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
-    <link rel="stylesheet" href="../static/css/typo.css" th:href="@{/css/typo.css}">
-    <link rel="stylesheet" href="../static/css/animate.css" th:href="@{/css/animate.css}">
-    <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">
-    <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">
+    <!--th:href="@{/css/semantic.min.css}"-->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >-->
+    <!--<link rel="stylesheet" href="../static/css/typo.css" th:href="@{/css/typo.css}">-->
+    <!--<link rel="stylesheet" href="../static/css/animate.css" th:href="@{/css/animate.css}">-->
+    <!--<link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">-->
+    <!--<link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">-->
+    <!--<link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editormd/css/editormd.min.css}">
     <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
 </head>
 <body>
@@ -26,7 +30,7 @@
                 <div class="ui dropdown  item">
                     <div class="text">
                         <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.user.avatar}}">
-                        <span th:text="${session.user.nickname}">李仁密</span>
+                        <span th:text="${session.user.nickname}">rmss</span>
                     </div>
                     <i class="dropdown icon"></i>
                     <div class="menu">
@@ -47,7 +51,7 @@
 
 
 <!--底部footer-->
-<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive" style="height: 300px;">
     <div class="ui center aligned container">
         <div class="ui inverted divided stackable grid">
             <div class="three wide column">
@@ -89,7 +93,8 @@
 
 <th:block th:fragment="script">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
-    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js" th:src="@{/js/semantic.min.js}"></script>
+    <!--<script src="../../static/lib/editormd/editormd.min.js" th:src="@{/js/editormd.min.js}"></script>-->
     <script src="../../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
 </th:block>
 

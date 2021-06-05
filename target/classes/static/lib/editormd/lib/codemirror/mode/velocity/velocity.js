@@ -120,7 +120,7 @@ CodeMirror.defineMode("velocity", function() {
             }
             if (stream.pos > word.length && stream.string.charAt(stream.pos-word.length-1)=="." && state.lastTokenWasBuiltin)
                 return "builtin";
-            // themes.default.assets.fonts: just a "word"
+            // default: just a "word"
             state.lastTokenWasBuiltin = false;
             return null;
         }

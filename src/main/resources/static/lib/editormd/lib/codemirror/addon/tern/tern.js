@@ -24,7 +24,7 @@
 // * completionTip: Customize the content in tooltips for completions.
 //   Is passed a single argument—the completion's data as returned by
 //   Tern—and may return a string, DOM node, or null to indicate that
-//   no tip should be shown. By themes.default.assets.fonts the docstring is shown.
+//   no tip should be shown. By default the docstring is shown.
 // * typeTip: Like completionTip, but for the tooltips shown for type
 //   queries.
 // * responseFilter: A function(doc, query, request, error, data) that

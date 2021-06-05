@@ -32,7 +32,7 @@
   CodeMirror.registerHelper("lint", "javascript", validator);
 
   function cleanup(error) {
-    // All problems are warnings by themes.default.assets.fonts
+    // All problems are warnings by default
     fixWith(error, warnings, "warning", true);
     fixWith(error, errors, "error");
 

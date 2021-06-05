@@ -18,7 +18,7 @@
 CodeMirror.defineMode("smarty", function(config) {
   "use strict";
 
-  // our themes.default.assets.fonts settings; check to see if they're overridden
+  // our default settings; check to see if they're overridden
   var settings = {
     rightDelimiter: '}',
     leftDelimiter: '{',

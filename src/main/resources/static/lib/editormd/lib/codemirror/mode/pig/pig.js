@@ -124,7 +124,7 @@ CodeMirror.defineMode("pig", function(_config, parserConfig) {
       // is it one of the listed types?
       if (types && types.propertyIsEnumerable(stream.current().toUpperCase()))
         return ("keyword", "variable-3");
-      // themes.default.assets.fonts is a 'variable'
+      // default is a 'variable'
       return ret("variable", "pig-word");
     }
   }

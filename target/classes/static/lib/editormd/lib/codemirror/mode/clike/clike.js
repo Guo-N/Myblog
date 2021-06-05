@@ -184,7 +184,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
     for (var i = 0; i < words.length; ++i) obj[words[i]] = true;
     return obj;
   }
-  var cKeywords = "auto if break int case long char register continue return themes.default.assets.fonts short do sizeof " +
+  var cKeywords = "auto if break int case long char register continue return default short do sizeof " +
     "double static else struct entry switch extern typedef float union for unsigned " +
     "goto while enum void const signed volatile";
 
@@ -304,7 +304,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
 
   def("text/x-java", {
     name: "clike",
-    keywords: words("abstract assert boolean break byte case catch char class const continue themes.default.assets.fonts " +
+    keywords: words("abstract assert boolean break byte case catch char class const continue default " +
                     "do double else enum extends final finally float for goto if implements import " +
                     "instanceof int interface long native new package private protected public " +
                     "return short static strictfp super switch synchronized this throw throws transient " +
@@ -323,7 +323,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
   def("text/x-csharp", {
     name: "clike",
     keywords: words("abstract as base break case catch checked class const continue" +
-                    " themes.default.assets.fonts delegate do else enum event explicit extern finally fixed for" +
+                    " default delegate do else enum event explicit extern finally fixed for" +
                     " foreach goto if implicit in interface internal is lock namespace new" +
                     " operator out override params private protected public readonly ref return sealed" +
                     " sizeof stackalloc static struct switch this throw try typeof unchecked" +

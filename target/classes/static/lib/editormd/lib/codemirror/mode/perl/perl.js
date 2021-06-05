@@ -407,7 +407,7 @@ CodeMirror.defineMode("perl",function(){
                 scalar                          :1,     // - force a scalar context
                 seek                            :1,     // - reposition file pointer for random-access I/O
                 seekdir                         :1,     // - reposition directory pointer
-                select                          :1,     // - reset themes.default.assets.fonts output or do I/O multiplexing
+                select                          :1,     // - reset default output or do I/O multiplexing
                 semctl                          :1,     // - SysV semaphore control operations
                 semget                          :1,     // - get set of SysV semaphores
                 semop                           :1,     // - SysV semaphore operations

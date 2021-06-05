@@ -1,5 +1,5 @@
 /*!
- * Goto line dialog plugin for Editor.md
+ * Goto line dialog plugin for Editor.editormd
  *
  * @file        goto-line-dialog.js
  * @author      pandao

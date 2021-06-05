@@ -38,7 +38,7 @@
       }
     }
 
-    // returns the non-themes.default.assets.fonts plugin closest to the end of the list
+    // returns the non-default plugin closest to the end of the list
     function getMostPowerful(state) {
       var context = state.cmdState;
       for (var i = context.length - 1; i >= 0; i--) {

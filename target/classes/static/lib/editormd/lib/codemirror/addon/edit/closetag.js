@@ -5,19 +5,19 @@
  * Tag-closer extension for CodeMirror.
  *
  * This extension adds an "autoCloseTags" option that can be set to
- * either true to get the themes.default.assets.fonts behavior, or an object to further
+ * either true to get the default behavior, or an object to further
  * configure its behavior.
  *
  * These are supported options:
  *
- * `whenClosing` (themes.default.assets.fonts true)
+ * `whenClosing` (default true)
  *   Whether to autoclose when the '/' of a closing tag is typed.
- * `whenOpening` (themes.default.assets.fonts true)
+ * `whenOpening` (default true)
  *   Whether to autoclose the tag when the final '>' of an opening
  *   tag is typed.
- * `dontCloseTags` (themes.default.assets.fonts is empty tags for HTML, none for XML)
+ * `dontCloseTags` (default is empty tags for HTML, none for XML)
  *   An array of tag names that should not be autoclosed.
- * `indentTags` (themes.default.assets.fonts is block tags for HTML, none for XML)
+ * `indentTags` (default is block tags for HTML, none for XML)
  *   An array of tag names that should, when opened, cause a
  *   blank line to be added inside the tag, and the blank line and
  *   closing line to be indented.

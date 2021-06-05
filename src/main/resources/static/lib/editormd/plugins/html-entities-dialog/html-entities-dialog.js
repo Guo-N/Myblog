@@ -1,5 +1,5 @@
 /*!
- * HTML entities dialog plugin for Editor.md
+ * HTML entities dialog plugin for Editor.editormd
  *
  * @file        html-entities-dialog.js
  * @author      pandao

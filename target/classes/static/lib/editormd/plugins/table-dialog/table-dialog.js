@@ -1,5 +1,5 @@
 /*!
- * Table dialog plugin for Editor.md
+ * Table dialog plugin for Editor.editormd
  *
  * @file        table-dialog.js
  * @author      pandao

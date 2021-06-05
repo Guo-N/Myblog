@@ -18,7 +18,7 @@ CodeMirror.defineMode("groovy", function(config) {
     return obj;
   }
   var keywords = words(
-    "abstract as assert boolean break byte case catch char class const continue def themes.default.assets.fonts " +
+    "abstract as assert boolean break byte case catch char class const continue def default " +
     "do double else enum extends final finally float for goto if implements import in " +
     "instanceof int interface long native new package private protected public return " +
     "short static strictfp super switch synchronized threadsafe throw throws transient " +
