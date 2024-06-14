@@ -59,7 +59,7 @@ public class indexController {
     public String newblogs(Model model){
         List<blog> blogs = blogService.listRecommendBlogTop(4);
         List<blog> newblogs=new ArrayList<>();
-        for(int i=0;i<3;i++){
+        for(int i=0;i<Math.min(3,blogs.size());i++){
             newblogs.add(blogs.get(i));
         }
         model.addAttribute("newblogs",newblogs);

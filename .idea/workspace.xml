@@ -1,81 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1338235f-5bb3-4b6b-97f1-1a15b583940d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/Gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/Gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.logo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.logo.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.preview.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/css/editormd.preview.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.amd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/editormd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/emoji.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/js/sea.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/js/sea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/js/seajs-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/js/seajs-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/themes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/themes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/use-requirejs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/use-requirejs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/use-seajs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/examples/use-seajs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/lib/codemirror/addons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/lib/codemirror/addons.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/lib/codemirror/mode/meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/lib/codemirror/mode/meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/lib/codemirror/modes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/lib/codemirror/modes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/code-block-dialog/code-block-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/code-block-dialog/code-block-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/emoji-dialog/emoji-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/emoji-dialog/emoji-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/goto-line-dialog/goto-line-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/goto-line-dialog/goto-line-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/help-dialog/help-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/help-dialog/help-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/html-entities-dialog/html-entities-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/html-entities-dialog/html-entities-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/image-dialog/image-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/image-dialog/image-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/link-dialog/link-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/link-dialog/link-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/plugin-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/plugin-template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/reference-link-dialog/reference-link-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/reference-link-dialog/reference-link-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/table-dialog/table-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/table-dialog/table-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/test-plugin/test-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/plugins/test-plugin/test-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/scss/editormd.themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/scss/editormd.themes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/src/editormd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/src/main/resources/static/lib/editormd/src/editormd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/Gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/Gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.logo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.logo.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.preview.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/css/editormd.preview.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.amd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/editormd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/emoji.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/js/sea.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/js/sea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/js/seajs-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/js/seajs-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/themes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/themes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/use-requirejs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/use-requirejs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/use-seajs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/examples/use-seajs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/lib/codemirror/addons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/lib/codemirror/addons.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/lib/codemirror/mode/meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/lib/codemirror/mode/meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/lib/codemirror/modes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/lib/codemirror/modes.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/code-block-dialog/code-block-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/code-block-dialog/code-block-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/emoji-dialog/emoji-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/emoji-dialog/emoji-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/goto-line-dialog/goto-line-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/goto-line-dialog/goto-line-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/help-dialog/help-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/help-dialog/help-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/html-entities-dialog/html-entities-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/html-entities-dialog/html-entities-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/image-dialog/image-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/image-dialog/image-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/link-dialog/link-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/link-dialog/link-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/plugin-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/plugin-template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/reference-link-dialog/reference-link-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/reference-link-dialog/reference-link-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/table-dialog/table-dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/table-dialog/table-dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/test-plugin/test-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/plugins/test-plugin/test-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/scss/editormd.themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/scss/editormd.themes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/src/editormd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/target/classes/static/lib/editormd/src/editormd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/life/daguo/boot/Controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/daguo/boot/Controller/indexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/life/daguo/boot/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/daguo/boot/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/types.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +194,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Myblog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -308,18 +253,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\apache-maven-3.6.0\repository" />
-        <option name="mavenHome" value="E:/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="$USER_HOME$/Desktop/apache-maven-3.9.7/conf" />
+        <option name="mavenHome" value="$USER_HOME$/Desktop/apache-maven-3.9.7" />
+        <option name="userSettingsFile" value="$USER_HOME$/Desktop/apache-maven-3.9.7/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -361,6 +304,7 @@
     <option name="width" value="1030" />
     <option name="height" value="620" />
   </component>
+  <component name="ProjectId" id="2fXEFYDIbapvwoYEaBvUvUZ67xa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -513,23 +457,17 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622865145698" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guiguWeb" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.32560706" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Guo Junnan\IdeaProjects\SpringBoot01helloworld\src\main\resources\static\img" />
@@ -546,19 +484,20 @@
       <recent name="C:\Users\Guo Junnan\IdeaProjects\SpringBoot01helloworld\src\main\resources\static\css\themes.default" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.MainApplication">
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="life.daguo.boot.MainApplication" />
+      <module name="SpringBoot-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="life.daguo.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mybatis_Generrator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="life.daguo.boot.util.Mybatis_Generrator" />
       <module name="blog" />
@@ -568,6 +507,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -587,11 +537,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="Application.MainApplication" />
         <item itemvalue="Application.Mybatis_Generrator" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -690,6 +641,51 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Controller/indexController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Controller/indexController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Controller/indexController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Controller/indexController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Service/ServiceImpl/blogServiceImpl.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Service/ServiceImpl/blogServiceImpl.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/life/daguo/boot/Service/ServiceImpl/blogServiceImpl.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
